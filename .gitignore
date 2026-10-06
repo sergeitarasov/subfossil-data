@@ -1,2 +1,16 @@
 .DS_Store
 ._*
+
+# Local workflow environment and generated classification artifacts
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+data/classification/.obsidian/
+data/classification/.cache/
+data/classification/.workflow.lock/
+data/classification/runs/
+data/classification/archives/
+data/classification/canvas/**/*.canvas

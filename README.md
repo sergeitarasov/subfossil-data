@@ -14,3 +14,7 @@ See [the collection README](data/original/README.md) for image counts, multiple 
 Images retain their original bytes. Additional images of the same voucher have a `__view-02` suffix. This suffix distinguishes files; anatomical views and identifications still require curation.
 
 A full clone downloads approximately 5.56 GB of photographs plus Git history. Individual images can also be accessed through GitHub. Camera frames and stacking-project files are held separately in the source archive.
+
+## Baserow → Obsidian classification workflow
+
+See [installation and run instructions](scripts/README.md) to select images by body part, build labelled similarity grids, and manage new or overwritten runs. Open `data/classification/` as the Obsidian vault.
